@@ -30,8 +30,7 @@ public class AdminLoginController {
 		return hmACUtils.getRequestWithHmac("ENERGY", "get_homes", "http://citymanagementbackend-env-1.eba-3swwhqnr.us-east-2.elasticbeanstalk.com/api/v1/request/homesWithOwner", "energyKey");
 	}
 
-
-	}
+}
 
 
 
